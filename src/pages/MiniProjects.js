@@ -1,5 +1,4 @@
 import React from "react";
-// import "../App.css";
 import Todo from "../assets/todo.png";
 import Contact from "../assets/contact.png";
 import Starwars from "../assets/starwars.png";
