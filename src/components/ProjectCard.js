@@ -6,13 +6,13 @@ const ProjectCard = (prop) => {
     <div>
       <div>
         <ul>
-          <li className="relative w-[380px] h-[255px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer">
+          <li className="relative w-[300px] sm:w-[380px] h-[255px] shadow-[0_3px_10px_rgb(0,0,0,0.2)] cursor-pointer">
             <div>
               <div className="max-w-sm overflow-hidden bg-cover bg-no-repeat">
                 <img
                   src={prop.img}
                   alt="Mealy"
-                  className="max-w-sm transition duration-300 ease-in-out hover:scale-110"
+                  className="sm:max-w-sm transition duration-300 ease-in-out hover:scale-110"
                 />
               </div>
               <a

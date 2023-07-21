@@ -1,42 +1,47 @@
 import React from "react";
 // import "../App.css";
 import Todo from "../assets/todo.png";
+import Contact from "../assets/contact.png";
+import Starwars from "../assets/starwars.png";
+import Profile from "../assets/profile.png";
+import Calculator from "../assets/calculator.png";
+import Game from "../assets/game.png";
 import ProjectCard from "../components/ProjectCard";
 
 const MiniProjects = () => {
   return (
-    <div className="border border-solid border-red-500 px-20">
-      <h1 className="text-4xl my-10">MINI PROJECTS</h1>
-      <ul className="flex flex-wrap justify-between gap-y-10 items-center">
+    <div className="px-5 lg:px-20">
+      <h1 className="text-4xl my-8 font-medium">MINI PROJECTS</h1>
+      <ul className="flex flex-col lg:flex-row flex-wrap justify-between gap-y-10 items-center">
         <ProjectCard
           img={Todo}
           title="To-Do List"
           link="https://todolistbykuceli.netlify.app"
         />
         <ProjectCard
-          img={Todo}
-          title="To-Do List"
-          link="https://todolistbykuceli.netlify.app"
+          img={Contact}
+          title="Contact Form"
+          link="https://contactformbykuceli.netlify.app"
         />
         <ProjectCard
-          img={Todo}
-          title="To-Do List"
-          link="https://todolistbykuceli.netlify.app"
+          img={Calculator}
+          title="Calculator"
+          link="calculatorbykuceli.netlify.app"
         />
         <ProjectCard
-          img={Todo}
-          title="To-Do List"
-          link="https://todolistbykuceli.netlify.app"
+          img={Game}
+          title="Tic Tac Toe Game"
+          link="https://tictactoebykuceli.netlify.app/"
         />
         <ProjectCard
-          img={Todo}
-          title="To-Do List"
-          link="https://todolistbykuceli.netlify.app"
+          img={Starwars}
+          title="Star Wars App"
+          link="https://starwarsappbykuceli.netlify.app"
         />
         <ProjectCard
-          img={Todo}
-          title="To-Do List"
-          link="https://todolistbykuceli.netlify.app"
+          img={Profile}
+          title="Profile Search App"
+          link="https://profile-search-app-by-kuceli.netlify.app"
         />
       </ul>
     </div>
